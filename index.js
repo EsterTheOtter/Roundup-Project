@@ -5,7 +5,7 @@ number and console.log the result. */
 /*
 let x=
 let y=
-const c= x*7.25+y*5.4 
+const c= x*7.25+y*5.4
 
 console.log(Math.ceil(c)) */
 
@@ -16,8 +16,7 @@ console.log(Math.ceil(c)) */
 // kg to lbs
 /*
 const f =
-const m = 
-
+const m =
 
 console.log()
 */
@@ -27,9 +26,13 @@ console.log()
 //Solving for fg
 /*let fg =*/
 //les gravitational constant
-let g = 6.673 * 10^-11
-let m1 = 0.0125 * 10^24
+let g = 6.673 * 10**-11
+// ^ Returns -1, answer is 1^-10
+// addendum_01: oooh, exponents represented not through '^' but what's called exponentation operator '**'
+// let x= Math.pow(3, 2)
+// console.log(x)
+let m1 = 0.0125 * 10**24
 let m2 = 44
-let r = 1195000^2
+let r = 1195000**2
 
 console.log(g)
